@@ -35,12 +35,32 @@ h2. Kode
 
 Prosjektet er satt opp for å fungere med "vanlig" Cucumber (Ruby), Cuke4Duke (Java) og Cuke4Duke (C#).
 
+h3. Installer Ruby (ikke nødvendig for Java)
+
+* Mac: (Ruby er allerede installert) - evt http://rvm.beginrescueend.com/
+* Windows: http://rubyforge.org/frs/?group_id=167&release_id=41267 (ruby186-27_rc2.exe - European keyboard)
+* Linux: apt-get install ruby
+
 h3. Ruby
 
+<pre>
+gem install cucumber rspec
 rake
+</pre>
 
 h3. Java
 
-mvn integration-test
+<pre>
+mvn integration-test -Dcucumber.installGems=true
+</pre>
 
 h3. C#
+
+Bygg løsningen i Visual Studio
+
+<pre>
+gem install cuke4nuke win32console
+cuke4nuke bin\Release\Poker.dll -c features | wac
+</pre>
+
+Se også "Gojko Adzic sin Cuke4Nuke tutorial":http://gojko.net/2010/01/01/bdd-in-net-with-cucumber-cuke4nuke-and-teamcity/
