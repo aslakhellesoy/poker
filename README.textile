@@ -1,0 +1,46 @@
+h1. Poker
+
+Du jobber for en TV stasjon som sender programmet "Kjendispoker". Kjendiser kommer i studio og spiller poker,
+og en annen kjendis er vert. Selv om vertene som regel er pene er de ikke alltid like smarte, og hver runde må
+avgjøres rast. Derfor her Kjendispoker behov for en automat som kan avgjøre hvem som vinner hver runde.
+
+Spillerne spiller med ekte kort. Det finnes kameraer i studio som kan se alle spillernes kort, og tanken er at
+en operatør skal sitte og skrive inn kortene som hver spiller sitter med på hånden inn i et program. Programmet
+skal kunne avgjøre hvilken av spillerne som har den beste hånden ved en "showdown", og vise både navnet på kombinasjonen
+og navnet på vinneren på en skjerm som verten kan se.
+
+Det finnes mange forskjellige varianter av poker, men på Kjendispoker spilles det alltid "Texas Hold'em":http://en.wikipedia.org/wiki/Texas_Hold_%27em. Hver hånd rangeres som beskrevet i "List of poker hands":http://en.wikipedia.org/wiki/List_of_poker_hands. Siden det spilles Texas Hold'em må operatøren
+også kunne skrive inn kortene som ligger på bordet.
+
+Det brukes ikke jokere i spillet.
+
+h2. Oppgave
+
+Lag en liste over all funksjonalitet som skal utvikles og del dette opp i mindre oppgaver slik at oppgavene
+kan fordeles i et team. For å vise framdrift i prosjektet skal det _hver time_ plottes inn framdrift i et CFD
+diagram. Et CFD diagram kan lages ved å kopiere følgende Google Documentet som er lenket til fra
+"denne artikkelen":http://open.bekk.no/2009/11/03/cumulative-flow-diagrams-with-google-spreadsheets/
+
+Lag en enkel "tavle" med 4 kolonner: "Backlog", "Under utvikling", "Klar til godkjenning", "Godkjent".
+Stasjonene "Under utvikling" og "Klar til godkjenning" har hver en initiell WIP-limit på 2 og 2.
+
+Bruk Cucumber til å beskrive forventet oppførsel til spillet. Ved behov kan man også bruke NUnit, JUnit,
+RSpec eller .NET.
+
+Utvikling skal skje i par, og det skal benyttes "ping pong" programmering. Dvs person 1 skriver et scenario
+(evt enhetstest), person 2 gjør den grønn så enkelt som mulig. Person 2 skriver et scenario osv. Når man mener
+en oppgave er ferdig må man få godkjenning fra produkteier.
+
+h2. Kode
+
+Prosjektet er satt opp for å fungere med "vanlig" Cucumber (Ruby), Cuke4Duke (Java) og Cuke4Duke (C#).
+
+h3. Ruby
+
+rake
+
+h3. Java
+
+mvn integration-test
+
+h3. C#
