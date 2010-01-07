@@ -21,11 +21,14 @@ kan fordeles i et team. For å vise framdrift i prosjektet skal det _hver time_ 
 diagram. Et CFD diagram kan lages ved å kopiere følgende Google Documentet som er lenket til fra
 "denne artikkelen":http://open.bekk.no/2009/11/03/cumulative-flow-diagrams-with-google-spreadsheets/
 
-Lag en enkel "tavle" med 4 kolonner: "Backlog", "Under utvikling", "Klar til godkjenning", "Godkjent".
-Stasjonene "Under utvikling" og "Klar til godkjenning" har hver en initiell WIP-limit på 2 og 2.
+Bruk IRC til å dele lenken til CFD diagrammet du har opprettet for ditt team:
+http://webchat.freenode.net/?channels=reykjavik2010
+
+Lag en enkel "tavle" på bordet eller veggen med 4 kolonner: "Backlog", "Under utvikling", "Klar til godkjenning", "Godkjent".
+Stasjonene "Under utvikling" og "Klar til godkjenning" har hver en WIP-limit på antall par.
 
 Bruk Cucumber til å beskrive forventet oppførsel til spillet. Ved behov kan man også bruke NUnit, JUnit,
-RSpec eller .NET.
+RSpec eller Test::Unit (for enhetstester).
 
 Utvikling skal skje i par, og det skal benyttes "ping pong" programmering. Dvs person 1 skriver et scenario
 (evt enhetstest), person 2 gjør den grønn så enkelt som mulig. Person 2 skriver et scenario osv. Når man mener
@@ -81,6 +84,8 @@ h4. Forberedelser
 Fjerne features/step_definitions/game_steps.rb
 Fjerne evt annet ikke-.net.
 
+Farger: http://github.com/aslakhellesoy/wac
+
 <pre>
 gem install cuke4nuke win32console
 </pre>
@@ -93,3 +98,13 @@ cuke4nuke bin\Release\Poker.dll -c features | wac
 </pre>
 
 Se også "Gojko Adzic sin Cuke4Nuke tutorial":http://gojko.net/2010/01/01/bdd-in-net-with-cucumber-cuke4nuke-and-teamcity/
+
+h2. Problemer
+
+Hvis du finner feil i Cucumber, Cuke4Nuke eller Cuke4Duke - vennligst registrer en feil i de respektive trackere:
+
+* https://rspec.lighthouseapp.com/projects/16211-cucumber/overview
+* http://github.com/richardlawrence/Cuke4Nuke/issues
+* http://github.com/aslakhellesoy/cuke4duke/issues
+
+Generelle spørsmål kan stilles på mailing lista eller IRC. See http://cukes.info for detaljer.
