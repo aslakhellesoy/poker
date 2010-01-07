@@ -7,6 +7,6 @@ Egenskap: Rangere hender
   skal TV verten bli fortalt hvilken hånd som er høyest
 
   Scenario: Ett par slår høyeste kort
-    Gitt at "rød" har "2K 2H 3S 4K 6H"
-    Og at "gul" har "AH KK QS 7R 9S"
-    Så skal "rød" vinne
+    Gitt at hvit har 2K 2H 3S 4K 6H
+    Og at svart har AH KK QS 7R 9S
+    Så skal hvit vinne

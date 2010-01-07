@@ -43,23 +43,48 @@ h3. Installer Ruby (ikke nødvendig for Java)
 
 h3. Ruby
 
+h4. Forberedelser
+
+Fjerne features/step_definitions/cucumber.wire
+
 <pre>
 gem install cucumber rspec
+</pre>
+
+h4. Kjøre Cucumber
+
+<pre>
 rake
 </pre>
 
 h3. Java
 
+h4. Forberedelser
+
 <pre>
 mvn integration-test -Dcucumber.installGems=true
 </pre>
 
+h4. Kjøre Cucumber
+
+<pre>
+mvn integration-test
+</pre>
+
 h3. C#
 
-Bygg løsningen i Visual Studio
+h4. Forberedelser
+
+Fjerne features/step_definitions/game_steps.rb
 
 <pre>
 gem install cuke4nuke win32console
+</pre>
+
+h4. Kjøre Cucumber
+
+Bygg løsningen i Visual Studio
+<pre>
 cuke4nuke bin\Release\Poker.dll -c features | wac
 </pre>
 
