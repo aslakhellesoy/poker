@@ -1,2 +1,5 @@
 target
 .idea
+*.suo
+bin
+obj

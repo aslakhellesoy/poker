@@ -44,3 +44,11 @@ h3. Java
 mvn integration-test
 
 h3. C#
+
+Bygg løsningen i Visual Studio
+
+<pre>
+cuke4nuke bin\Release\Poker.dll -c features | wac
+</pre>
+
+Se også "Gojko Adzic sin Cuke4Nuke tutorial":http://gojko.net/2010/01/01/bdd-in-net-with-cucumber-cuke4nuke-and-teamcity/
