@@ -46,6 +46,7 @@ h3. Ruby
 h4. Forberedelser
 
 Fjerne features/step_definitions/cucumber.wire
+Fjerne evt annet ikke-ruby.
 
 <pre>
 gem install cucumber rspec
@@ -60,6 +61,8 @@ rake
 h3. Java
 
 h4. Forberedelser
+
+Fjerne evt annet ikke-java.
 
 <pre>
 mvn integration-test -Dcucumber.installGems=true
@@ -76,6 +79,7 @@ h3. C#
 h4. Forberedelser
 
 Fjerne features/step_definitions/game_steps.rb
+Fjerne evt annet ikke-.net.
 
 <pre>
 gem install cuke4nuke win32console
