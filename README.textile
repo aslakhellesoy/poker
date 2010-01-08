@@ -18,7 +18,7 @@ h2. Oppgave
 
 Lag en liste over all funksjonalitet som skal utvikles og del dette opp i mindre oppgaver slik at oppgavene
 kan fordeles i et team. For å vise framdrift i prosjektet skal det _hver time_ plottes inn framdrift i et CFD
-diagram. Et CFD diagram kan lages ved å kopiere følgende Google Documentet som er lenket til fra
+diagram. Et CFD diagram kan lages ved å kopiere "dette":http://spreadsheets.google.com/ccc?key=tKO1nDxmQGghjhyTUce8uIA Google Documentet. Det er en tilpasset versjon av regnearket som beskrives i
 "denne artikkelen":http://open.bekk.no/2009/11/03/cumulative-flow-diagrams-with-google-spreadsheets/
 
 Bruk IRC til å dele lenken til CFD diagrammet du har opprettet for ditt team:
