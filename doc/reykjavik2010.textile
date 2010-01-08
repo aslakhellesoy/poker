@@ -1,0 +1,7 @@
+h2. CFD diagrammer
+
+* "Rubygruppa":http://spreadsheets.google.com/ccc?key=tPlxmaCKhWUA2KGa-rRcoZg
+* "DreamTeam (.NET)":http://spreadsheets.google.com/ccc?key=0ApD0u-884qf9dFpUaW9MLWRja3piWEg1N0pGanpPV2c
+* "Scandinavian All Stars (Java)":http://spreadsheets.google.com/ccc?key=0AtVVEK5Jn_vvdGtzMFlrZlBNMzVHRnkybnZUeW9NUEE&hl=en
+* "Team Darkness (Java)":http://spreadsheets.google.com/ccc?key=0AupCdWOdbJ3kdHVNZVFZTmlVOFVVZVhDdG9zUnVXWlE&hl=en
+* "Team Darkness (Java)":http://spreadsheets.google.com/ccc?key=tNDopZXvgB1x0jCUBFFLwuQ
